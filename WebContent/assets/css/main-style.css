@@ -1,0 +1,86 @@
+
+.homespacer{
+	margin-top:80px;
+	margin-left: -50px;
+}
+.spacer{
+  	margin-right: 20px;
+}
+
+.bg-grey{
+  		background-color: #989898;
+}
+
+.bg-white{
+  		background-color: white;
+}
+.bg-teal{
+    background-color: #c7eaee;
+}
+.block-size{
+	height: 300px;
+}
+
+.block-text{
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+.vert-align{
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.img-align{
+	margin-top:-7px;
+}
+
+.navbar{
+	background-color: rgba(255,255,255,0.6);
+}
+
+.gopher{
+ 	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+}
+.block-display{
+	display:block;	
+}
+
+@font-face {
+  	font-family: 'Monty';
+  	src: url(../fonts/Montez-Regular.ttf);
+}
+
+.monty-font{
+	font-family: 'Monty';
+	font-size: 100px;
+}
+.logo {
+  	font-size: 70px;
+}
+#title-text{
+	margin-left:120px;	
+}
+#profile-widget{
+	margin-top:5px;
+	margin-right:5px;
+	position:fixed;
+	top:0;
+	right:0;
+	z-index:9999;
+}
+#profile-wdiget-button-container{
+	display:block;
+}
+#myNavbar li:hover{
+	text-decoration:underline;
+}
+.pad-nav-bar{
+	padding-top:50px;
+}
